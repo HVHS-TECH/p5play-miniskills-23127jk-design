@@ -13,6 +13,7 @@ cnv = new canvas(windowwidth, windowheight)
 cube = new Sprite(x, y, w, h);
 
 cube.color = 'blue';
+background('blue')
 }
 
 /*******************************************************/
