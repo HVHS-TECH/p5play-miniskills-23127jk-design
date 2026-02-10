@@ -14,7 +14,7 @@ function setup() {
 	console.log("setup: ");
 cube = new Sprite(100, 100, 100, 100);
 
-cube.color = 'blue';
+cube.color = '#87CEEB';
 
 }
 
@@ -22,7 +22,7 @@ cube.color = 'blue';
 // draw()
 /*******************************************************/
 function draw() {
-background.color("red")
+background(255, 100, 100)
 }
 
 /*******************************************************/
