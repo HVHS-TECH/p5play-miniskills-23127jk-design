@@ -8,7 +8,7 @@
 // setup()
 /*******************************************************/
 function setup() {
-		new Canvas(250, 100);
+	cnv = new Canvas(250, 100);
 
 
 	console.log("setup: ");
