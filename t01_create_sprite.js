@@ -14,6 +14,11 @@ cube = new Sprite(x, y, w, h);
 
 cube.color = 'blue';
 background('blue')
+circle= new sprite(x, y, d);
+
+circle.color = 'red';
+background("red")
+
 }
 
 /*******************************************************/
