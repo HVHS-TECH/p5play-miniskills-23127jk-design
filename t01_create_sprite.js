@@ -25,16 +25,8 @@ background("red")
 // draw()
 /*******************************************************/
 function draw() {
-cnv = new canvas(windowwidth, windowheight)
-cube = new Sprite(100, 100, 100, 100);
-
-cube.color = 'blue';
-background('blue')
-circle= new sprite(50, 50, 50);
-
-circle.color = 'red';
-background("red")
-
+background.color("red")
+background.color("blue")
 }
 
 /*******************************************************/
