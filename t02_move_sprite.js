@@ -19,6 +19,9 @@ rectangle.color = '#56be5b';
 
 rectangle.rotationSpeed = 5;
 rectangle.vel.x = 2;
+
+cube.rotationSpeed = 5;
+cube.rotationSpeed = 2;
 }
 	
 /*******************************************************/
