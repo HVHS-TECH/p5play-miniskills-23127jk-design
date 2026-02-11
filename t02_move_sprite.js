@@ -21,7 +21,7 @@ rectangle.rotationSpeed = 5;
 rectangle.vel.x = 2;
 
 cube.rotationSpeed = 5;
-cube.rotationSpeed = 2;
+cube.vel.x = 2;
 }
 	
 /*******************************************************/
