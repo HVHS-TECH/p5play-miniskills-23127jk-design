@@ -18,7 +18,6 @@ rectangle = new Sprite(200, 200, 200, 200, '100');
 rectangle.color = '#56be5b';
 
 rectangle.rotationSpeed = 5;
-rectangle.rotationSpeed = -5;
 rectangle.vel.x = 2;
 }
 	
