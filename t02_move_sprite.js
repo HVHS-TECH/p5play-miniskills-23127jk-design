@@ -10,18 +10,16 @@
 function setup() {
 	cnv = new Canvas(700, 700);
 	console.log("setup: ");
-cube = new Sprite(100, 100, 100, 100);
+//cube = new Sprite(100, 100, 100, 100);
 
-cube.color = '#87CEEB';
-rectangle = new Sprite(200, 200, 200, 200, '100');
+//cube.color = '#87CEEB';
+rectangle = new Sprite(200, 100, 200, 200, '200');
 
 rectangle.color = '#56be5b';
 
-rectangle.rotationSpeed = 5;
+rectangle.rotationSpeed = -1;
 rectangle.vel.x = 2;
 
-cube.rotationSpeed = 5;
-cube.vel.x = 2;
 }
 	
 /*******************************************************/
