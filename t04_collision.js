@@ -38,6 +38,16 @@ cube2.vel.x = 2;
 platform_1 = new Sprite(300, 300, 200, 10, '1000');
 platform_1.rotationSpeed = 0.5;
 platform_1.rotationSpeed = -1;
+platform_2 = new Sprite(450, 350, 200, 10, '1000')
+platform_2.rotationSpeed = 0.5;
+platform_2.rotationSpeed = -1;
+platform_1.bounciness = 0.2;
+platform_1.friction = 0.5;
+platform_2.bounciness = 0.2;
+platform_2.friction = 0.5;
+cube2.bounciness = 0.2;
+cube2.friction = 1;
+cube2.drag = 0.5;
 }
 	
 /*******************************************************/
