@@ -9,9 +9,9 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-	cnv = new Canvas(755, 755);
+	cnv = new Canvas(800, 800);
 	world.gravity.y = 10;
-	world.gravity.x = 5;
+	//world.gravity.x = 10;
 	console.log("setup: ");
 //cube = new Sprite(100, 100, 100, 100);
 
@@ -50,6 +50,29 @@ function setup() {
 //cube2.bounciness = 0;
 //cube2.friction = 1;
 //cube2.drag = 0.5;
+wallLH  = new Sprite(0, height/2, 8, height, 'k');
+
+wallLH.color = 'black';
+
+wallRH  = new Sprite(800, 400, 25, 800, 'k');
+
+wallTop = new Sprite(400, 0, 800, 25, 'k');
+
+wallBot = new Sprite(400, 800, 800, 25, 'k');
+
+ball_1 = new Sprite(width/2, height/2, 50, 'd');
+
+ball_1.color = 'cyan';
+
+ball_1.vel.x = 2;
+
+ball_1.vel.y = 2;
+
+ball_1.bounciness = 1;
+
+ball_1.friction = 0;
+
+ball_1.drag = 0;
 }
 	
 /*******************************************************/
