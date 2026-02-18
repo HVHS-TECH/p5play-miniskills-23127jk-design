@@ -74,18 +74,18 @@ ball_2.vel.x = 2
 ball_2.bounciness = 1
 ball_2.friction = 0
 ball_2.drag = 0;
+const VELARRAY = [-1, 1];
 
- alien = new Sprite(400, 200, 150, 150,);
+let randNum = random(4, 7) * random(VELARRAY);
+ alien = new Sprite(200, 100, 150, 150,);
 
   alien.vel.x = 3;
 
   alien.vel.y = 4;
 
-  alien.bounciness = 1;
+  alien.bounciness = randNum;
 
   alien.friction = 0;
-  random(-10, 10)
-randNum = random(6, 8);
 
 }
 	
