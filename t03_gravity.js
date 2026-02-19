@@ -22,7 +22,7 @@ cube.color = '#87CEEB';
 //rectangle.rotationSpeed = -2;
 //rectangle.vel.x = 1;
 
-square = new Sprite(300, 100, 100, 100, '100');
+square = new Sprite(300, 100, 100, 100, 'd');
 square.color = '#eef3f5';
 
 square.rotationSpeed = 2;

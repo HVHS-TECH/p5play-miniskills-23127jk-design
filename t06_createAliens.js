@@ -77,6 +77,7 @@ ball_2.drag = 0;
 const VELARRAY = [-1, 1];
 
 let randNum = random(4, 7) * random(VELARRAY);
+for (i = 0; i < 5; i++)
  alien = new Sprite(200, 100, 150, 150,);
 
   alien.vel.x = 3;

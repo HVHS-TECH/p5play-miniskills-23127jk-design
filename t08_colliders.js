@@ -11,6 +11,7 @@ function setup() {
 console.log("setup: ");
 cnv = new Canvas(800, 800);
 	world.gravity.y = 10;
+  alienGroup = new Group();
 	//world.gravity.x = 10;
 	console.log("setup: ");
 
@@ -50,26 +51,49 @@ ball_1.drag = 0;
  // alien.bounciness = randNum;
 
 //  alien.friction = 0;
-alienGroup = new Group();
-alien = new Sprite(200, 400, 150, 150,);
 
-  alien.vel.x = 3;
+//alienGroup = new Group();
+//alien = new Sprite(200, 400, 150, 150,);
 
-  alien.vel.y = 4;
+ // alien.vel.x = 3;
 
-  alien.bounciness = 1;
+ // alien.vel.y = 4;
 
-  alien.friction = 0;
-  // Register a callback:
+//  alien.bounciness = 1;
 
-// if any alien in alienGroup collides with ball_1, call func2Call
+ // alien.friction = 0;
 
-alienGroup.collides(ball_1, func2Call);
-function func2Call (_alien, _ball_1){
-  _alien.remove();
+//const VELARRAY = [-1, 1];
+
+//randNum = random(-4, 7) * random(VELARRAY);
+for (i = 0; i < 5; i++) {
+
+  alien_2 = new Sprite( 200, 200, 100, 100, "d");
+
+  alien_2.vel.x = 3;
+
+  alien_2.vel.y = 4;
+
+  //alien_2.bounciness = randNum;
+
+  alien_2.bounciness = 1;
+
+  alien_2.friction = 0;
+
+alienGroup.add(alien_2)
+    alienGroup.collides(ball_1, func2Call);
+
 }
-}
+function func2Call(_ssss, _ball_1) {
+//alert("hello")
 // Delete the alien which was hit
+
+_ssss.remove();
+
+}
+
+}
+
 
 	
 /*******************************************************/
@@ -77,6 +101,8 @@ function func2Call (_alien, _ball_1){
 /*******************************************************/
 function draw() {
 	background(255, 100, 100)
+
+  
 }
 
 /*******************************************************/
