@@ -59,6 +59,10 @@ if (kb.released('up')){
 if (kb.released('down')){
 	square.vel.y= 0;
 }
+
+text("hello world", 70, 70)
+var name = "Mr bob";
+text("hello "+name, 50, 100)
 }
 /*******************************************************/
 //  END OF APP
